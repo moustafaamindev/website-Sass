@@ -1,0 +1,27 @@
+@use "../helpers/mixin" as *;
+/* start responsive styles */
+
+/* mobile responsive styles */
+
+@include minMobile {
+  .container {
+    width: 750px;
+  }
+}
+
+/* tablet responsive styles */
+
+@include mintablet {
+  .container {
+    width: 970px;
+  }
+}
+
+/* large screen responsive styles */
+
+@include minLaptop {
+  .container {
+    width: 1170px;
+  }
+}
+/* strat header */

@@ -1,0 +1,18 @@
+// import helpers
+
+@use "helpers/vars" as *;
+
+@use "helpers/mixin" as *;
+
+// import gloabel rules
+@use "layout/header";
+
+@use "layout/global-rules";
+
+@use "components/head-with-border";
+
+@use "pages/Homepage";
+
+@use "layout/grid";
+
+@use "layout/footer";
